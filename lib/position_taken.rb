@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 def position_taken?(board, check)
-  if board[check]!=" " or board[check]!=""
+  if board[check]!=" " || board[check]!=""
     false
   else
     true
