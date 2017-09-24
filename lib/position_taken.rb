@@ -2,7 +2,7 @@
 def position_taken?(board, check)
   if board[check]!=" " || board[check]!=""
     false
-  else
+  elsif board[check]=="X" || board[check]=="O"
     true
   end
 end
